@@ -1,0 +1,19 @@
+c:
+
+hist(chickwts$weight,xlab= "Het gewicht van de kuikens",ylab="Frequentie kuikens met dat gewicht")
+
+D:
+
+boxplot(weight~feed,data=chickwts,col = "yellow", 
+main="Gewicht per verschillend diëten", 
+xlab="de dieeten van de kuikens", ylab="gewicht van de kuikens", sub="bron:package dataset in R")
+
+E:
+
+casein en meatmeal deze zijn de grootste boxplotten
+
+F:
+
+plot(chickwts$weight,col.bg="light-blue")
+abline(h = 261, col ="red")
+
